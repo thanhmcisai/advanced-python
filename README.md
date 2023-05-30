@@ -8,6 +8,14 @@
 - Using Boolean flags to make a method do 2 different things
 - Catching and then ignoring exceptions
 - Not use custom exception
+- Using the wrong data structure
+- Using misleading names
+- Classes with too many instance variables
+- Verb/subject
+- Backpedalling
+- Hard-wired sequences with a fixed order
+- Creating unrelated objects in the initializer
+- Not relying on keyword arguments
 
 # Functions vs Classes: When to Use Which and Why?
 
@@ -42,5 +50,10 @@
     - Các module cấp cao không nên phụ thuộc vào các module cấp thấp. Cả 2 nên phụ thuộc vào abstraction.
     - Interface (abstraction) không nên phụ thuộc vào chi tiết, mà ngược lại. (Các class giao tiếp với nhau thông qua interface, không phải thông qua implementation.)
     - Ex: Để dễ hiểu, bạn hãy nhìn vào cái mấy cái đèn điện trong nhà mình. Ở đây, module cấp cao chính là ổ điện, interface chính là đuôi đèn tròn, 2 module cấp thấp là bóng đèn tròn và bóng đèn huỳnh quang. Hai module này đều kế thừa interface đuổi tròn, Ta có thể dễ dàng thay đổi 2 loại bóng vì module cấp cao (ổ điện) chỉ quan tâm tới interface (đuôi tròn), không quan tâm tới implementation (bóng đèn tròn hay huỳnh quang).
+
+# Protocol and ABC
+
+- Protocol: Using when want to create a interface class
+- ABC: Using when want to create a abstract class
 
 # GRASP Design Principles
