@@ -1,0 +1,3 @@
+[submodule "libs/examples"]
+	path = libs/examples
+	url = https://github.com/ArjanCodes/examples
