@@ -1,4 +1,0 @@
-pulumi
-pulumi-gcp
-flask
-pytest

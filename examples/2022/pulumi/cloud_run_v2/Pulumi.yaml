@@ -1,6 +1,0 @@
-name: cloud_run_v2
-runtime:
-  name: python
-  options:
-    virtualenv: venv
-description: Google Cloud Run example (with functions)

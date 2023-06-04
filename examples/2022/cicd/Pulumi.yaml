@@ -1,6 +1,0 @@
-name: channel_api
-runtime:
-  name: python
-  options:
-    virtualenv: venv
-description: A simple YouTube channel API running as a Google Cloud Function.
